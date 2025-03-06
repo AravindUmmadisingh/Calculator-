@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?
+family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Merriweather', serif;
+}
+
+body {
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: gray;
+}
+
+button {
+border: none;
+border-radius: 10px;
+padding: 10px 20px;
+width: 125px;
+height: 60px;
+color: whitesmoke;
+border-color: ghostwhite;
+margin: 6px;
+background: transparent;
+background-color: black;
+box-shadow: -8px -8px 10px rgba(255), 5px 5px 10px;
+box-shadow: white;
+cursor: pointer;
+}
+
+input {
+border: none;
+height: 150px;
+width: 540px;
+padding: 2px;
+background: transparent;
+box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+margin: 5px;
+cursor: pointer;
+text-align: left;
+font-size: 40px;
+font-weight: bold;
+color: gold;
+font-display: inherit;
+font-style: italic;
+font-family: 'Playfair Display', ariel;
+border-color: ghostwhite;
+}
+
+.calculator{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #292828;
+  box-shadow: 0px 3px 15px rgba(113, 119, 0.5);
+}
+
+input::placeholder {
+color: black;
+}
+
+button:hover {
+background-color: #8d8b8b;
+font-size: 20px;
+}
+
+.equal {
+background-color: cornflowerblue;
+font-size: 20px;
+box-sizing: border-box;
+border: greenyellow;
+border-radius: 10px;
+}
+
+.plus {
+background-color: orange;
+font-size: 20px;
+}
+
+.minus {
+background-color: orange;
+}
+
+.multiplication {
+background-color: orange;
+}
+
+.divided{
+  background-color: orange;
+}
+
+.ac{
+  background-color: green;
+}
+
+.percentage {
+  background-color: orange
+}
+
+.brackets {
+  background-color: orange;
+}
