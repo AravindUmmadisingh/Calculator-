@@ -1,0 +1,1 @@
+This the calculator for creating and using frontend technologies like HTML, CSS and JavaScript. This calculator uses every math calculation will be used and you can calculate any numbers in this calculator. 
